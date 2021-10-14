@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "wdmdf",
+  "version": "${version}",
+  "name": "Wdmdf",
+  "description": "Show the full stacktrace on invalid player data errors",
+  "authors": [
+    "Potatoboy9999"
+  ],
+  "contact": {
+    "repo": "https://github.com/PotatoPresident/wdmdf"
+  },
+  "license": "MIT",
+  "icon": "assets/wdmdf/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "wdmdf.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "minecraft": ">=1.17"
+  }
+}
